@@ -1,5 +1,7 @@
-CKEditor 5 classic editor build
+ckeditor5-build-writernaut
 ========================================
+
+Writernaut.com uses this custom CKEditor 5 build.
 
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
