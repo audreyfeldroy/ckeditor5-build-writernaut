@@ -19,8 +19,14 @@ From your project:
 npm link ckeditor5-build-writernaut
 ```
 
-Then build it:
+Then come back to this package directory and build it:
 
 ```
 npm run build
+```
+
+To import it:
+
+```
+import WriternautEditor from "ckeditor5-build-writernaut";
 ```
