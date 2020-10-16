@@ -45,8 +45,10 @@
     "@ckeditor/ckeditor5-paragraph": "^23.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^23.0.0",
     "@ckeditor/ckeditor5-table": "^23.0.0",
-    "@ckeditor/ckeditor5-typing": "^23.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^23.0.0",
+    "@ckeditor/ckeditor5-typing": "^23.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "style-loader": "^1.2.1",
@@ -72,5 +74,38 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-code-block": "^23.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-undef": "off",
+      "no-unused-vars": "off",
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module",
+      "ecmaVersion": 6
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env", {
+          "modules": "commonjs"
+        }
+      ]
+    ]    
   }
 }

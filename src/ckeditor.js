@@ -32,7 +32,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
-export default class WriternautEditor extends ClassicEditorBase {}
+class WriternautEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 WriternautEditor.builtinPlugins = [
@@ -107,3 +107,5 @@ WriternautEditor.defaultConfig = {
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
+
+export default WriternautEditor;
