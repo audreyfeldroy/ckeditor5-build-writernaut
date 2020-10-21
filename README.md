@@ -3,6 +3,8 @@ ckeditor5-build-writernaut
 
 Writernaut.com uses this custom CKEditor 5 build.
 
+![Node.js Package](https://github.com/audreyfeldroy/ckeditor5-build-writernaut/workflows/Node.js%20Package/badge.svg)
+
 ## Local Development
 
 Fork this, then:
