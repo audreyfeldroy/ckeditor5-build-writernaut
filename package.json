@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-writernaut",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Writernaut's customized CKEditor 5 build. Based on the CKEditor 5 classic editor build.",
   "keywords": [
     "ckeditor5-build",
