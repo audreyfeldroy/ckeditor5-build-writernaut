@@ -30,3 +30,9 @@ To import it:
 ```
 import WriternautEditor from "ckeditor5-build-writernaut";
 ```
+
+To release a new package version:
+
+```
+np
+```
