@@ -71,6 +71,7 @@
     "preversion": "npm run build"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-code-block": "^23.0.0"
+    "@ckeditor/ckeditor5-code-block": "^23.0.0",
+    "@ckeditor/ckeditor5-word-count": "^23.0.0"
   }
 }
